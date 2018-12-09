@@ -1,0 +1,445 @@
+/*
+Theme Name:     Shuttle weBusiness
+Theme URI:      https://shuttlethemes.com/features/
+Author:         Shuttle Themes
+Author URI:     https://www.shuttlethemes.com
+Description:    Shuttle weBusiness is the awesome free version of Shuttle Pro. It is really good for professionals. If you want to make a business, for big or small this theme is good for you. So if it is a restaurant, sport, medical, startup, corporate, business, ecommerce, portfolio, freelancers or any type of online agency or firm you will want to use this cool design. It had a multi-purpose design with widget areas in footer, so now even easy to make blog / news website which looks really clean and professional. The theme is responsive, WPML, Polylang, Retina ready, SEO friendly, and is a super design. Shuttle is fast and lightweight and can be used for any type of website, fully compatible with eCommerce plugins like WooCommerce an JigoShop. Whether you are building a website for yourself, your business or are a freelancer building websites for your cliente, Shuttle is the perfect choice. Plus if works with all the major page builders such as Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin and so much more!
+Template:       shuttle
+Version:        1.0.0
+License: GNU    General Public License v2 or later
+License URI:    https://www.gnu.org/licenses/gpl-2.0.html
+Tags:           one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, editor-style, featured-images, featured-image-header, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, portfolio, rtl-language-support
+Text Domain:	shuttle-webusiness
+*/
+
+/* General */
+
+/* Pre Header Style */
+#pre-header {
+	background: #f8f8f8;
+	border-bottom: 1px solid #f8f8f8;
+}
+#pre-header .header-links > ul > li:before {
+	display: none;
+	content: "";
+}
+#pre-header .header-links .menu-hover > a,
+#pre-header .header-links > ul > li > a:hover {
+	color: #fff;
+	background: #13aff0;
+}
+#pre-header .header-links li a {
+	padding: 12px 14px;
+}
+#pre-header .header-links .sub-menu li {
+	border-bottom: 1px solid #f8f8f8;
+}
+#pre-header .header-links .sub-menu li:last-child {
+	border-bottom: none;
+}
+#pre-header .header-links .sub-menu a {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+#pre-header .header-links .sub-menu a:hover {
+	color: #fff;
+	background: #13aff0;
+	-webkit-box-shadow: 0 0 0 1px #13aff0;
+	-moz-box-shadow: 0 0 0 1px #13aff0;
+	-ms-box-shadow: 0 0 0 1px #13aff0;
+	-o-box-shadow: 0 0 0 1px #13aff0;
+	box-shadow: 0 0 0 1px #13aff0;
+}
+#pre-header .sub-menu .menu-parent > a:before {
+	-webkit-transition: left 0.3s ease;
+	-moz-transition: left 0.3s ease;
+	-ms-transition: left 0.3s ease;
+	-o-transition: left 0.3s ease;
+	transition: left 0.3s ease;
+}
+
+#pre-header-social li:last-child {
+	border-right: none;
+}
+#pre-header-social li a {
+	border-left: none;
+}
+#pre-header-social li:last-child > a {
+	border-right: none;
+}
+
+/* Header Style */
+#header .header-links > ul > li > a,
+#header-sticky .header-links > ul > li > a {
+	text-transform: uppercase;
+    padding: 11px 15px;
+    margin: 24px 1px;
+}
+#header .menu > li.menu-hover > a,
+#header .menu > li.current_page_item > a,
+#header .menu > li.current-menu-ancestor > a,
+#header .menu > li > a:hover,
+#header-sticky .menu > li.menu-hover > a,
+#header-sticky .menu > li.current_page_item > a,
+#header-sticky .menu > li.current-menu-ancestor > a,
+#header-sticky .menu > li > a:hover {
+    color: #fff;
+	background: #13aff0;
+}
+#header .header-links .sub-menu,
+#header-sticky .header-links .sub-menu {
+	text-align: center;
+}
+#header .sub-menu li,
+#header-sticky .sub-menu li {
+	border-bottom: 1px solid #E5E5E5;
+	padding: 0;
+}
+#header .sub-menu li:last-child,
+#header-sticky .sub-menu li:last-child {
+	border-bottom: none;
+}
+#header .header-links .sub-menu a,
+#header-sticky .header-links .sub-menu a {
+	padding: 8px 30px;
+}
+#header .header-links .sub-menu a:hover,
+#header-sticky .header-links .sub-menu a:hover {
+	color: #fff;
+	background: #13aff0;
+	-webkit-box-shadow: 0 0 0 1px #13aff0;
+	-moz-box-shadow: 0 0 0 1px #13aff0;
+	-ms-box-shadow: 0 0 0 1px #13aff0;
+	-o-box-shadow: 0 0 0 1px #13aff0;
+	box-shadow: 0 0 0 1px #13aff0;
+}
+#header .sub-menu .menu-parent > a:before,
+#header-sticky .sub-menu .menu-parent > a:before {
+	-webkit-transition: left 0.3s ease;
+	-moz-transition: left 0.3s ease;
+	-ms-transition: left 0.3s ease;
+	-o-transition: left 0.3s ease;
+	transition: left 0.3s ease;
+}
+
+#header {
+	border-bottom: none;
+}
+
+#logo-sticky {
+	display: none;
+}
+#header-sticky {
+	text-align: center;
+}
+#header-sticky-links {
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+}
+#header-sticky .header-links > ul > li > a {
+	padding: 15px 20px;
+	margin: 0 1px;
+}
+#header-sticky .menu > li.menu-hover > a,
+#header-sticky .menu > li.current_page_item > a,
+#header-sticky .menu > li.current-menu-ancestor > a,
+#header-sticky .menu > li > a:hover {
+	-webkit-box-shadow: 0 0 0 1px #13aff0;
+	-moz-box-shadow: 0 0 0 1px #13aff0;
+	-ms-box-shadow: 0 0 0 1px #13aff0;
+	-o-box-shadow: 0 0 0 1px #13aff0;
+	box-shadow: 0 0 0 1px #13aff0;
+}
+
+#header-search a {
+	border: none;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+#header-search .fa-search {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+
+/* Intro Style */
+#intro {
+	background: #f8f8f8;
+	padding: 20px 10px;
+}
+#intro .page-title,
+#intro #breadcrumbs {
+	color: #222;
+}
+#intro .page-title > span,
+#intro #breadcrumbs-core {
+	background: #eee;
+}
+#intro .page-title > span {
+	padding: 2px 25px;
+}
+#intro #breadcrumbs .delimiter {
+	padding: 0px 8px;
+}
+
+/* Call To Action */
+#introaction,
+#outroaction {
+	background: #f8f8f8;
+}
+#introaction {
+	padding: 46px 10px 30px;
+}
+#outroaction {
+	padding: 50px 10px 46px;
+}
+#introaction-core,
+#outroaction-core {
+	background: none;
+	padding: 0;	
+}
+#introaction-core .action-message,
+#outroaction-core .action-message {
+	width: 100%;
+	text-align: center;
+	margin-right: 0;
+	margin-bottom: 30px;
+}
+#introaction-core .action-link,
+#outroaction-core .action-link {
+	width: 100%;
+}
+
+/* Featured Style */
+.services-builder.style1 {
+	text-align: left;
+	border: none;
+    border-bottom: 4px solid #e5e5e5;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.services-builder.style1:hover {
+	background: #fff;
+	-webkit-box-shadow: 0 6px 6px 0 rgba(156, 156, 156, 0.3);
+	-moz-box-shadow: 0 6px 6px 0 rgba(156, 156, 156, 0.3);
+	-ms-box-shadow: 0 6px 6px 0 rgba(156, 156, 156, 0.3);
+	-o-box-shadow: 0 6px 6px 0 rgba(156, 156, 156, 0.3);
+	box-shadow: 0 6px 6px 0 rgba(156, 156, 156, 0.3);
+}
+.services-builder.style1 h3 {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* Blog Posts */
+.blog-article {
+	background: #f8f8f8;
+	border-bottom: 4px solid #e5e5e5;
+	padding: 27px 20px 24px;
+	margin-bottom: 50px;
+}
+.blog-style1 .blog-grid .blog-article:before {
+	display: none;
+}
+
+/* Blog Posts - Pagination */
+.navigation.pagination .nav-links {
+	text-align: center;
+}
+.navigation.pagination .nav-links a:last-child {
+	margin-right: 0;
+}
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+	color: inherit;
+	border: 1px solid #e5e5e5;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+/* Single Post */
+
+/* Single Post Style - Pagination */
+.nav-previous a,
+.nav-next a {
+	color: inherit;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #fff;
+	background: #13aff0;
+	border: 1px solid #13aff0;
+}
+
+/* Single Post Style - Author Box */
+
+/* Single Post Style - Comments */
+
+/* Footer Style */
+#footer {
+	background: #f8f8f8;
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+#footer-core h3 {
+	text-transform: uppercase;
+}
+
+/* Sub Footer Style */
+#sub-footer {
+	background: #13aff0;
+	border-top: none;
+	padding: 0;
+}
+
+#sub-footer-widgets {
+	background: #f8f8f8;
+	-webkit-box-shadow: -1000px 0 0 0 #f8f8f8, 1000px 0 0 0 #f8f8f8;
+	-moz-box-shadow: -1000px 0 0 0 #f8f8f8, 1000px 0 0 0 #f8f8f8;
+	-ms-box-shadow: -1000px 0 0 0 #f8f8f8, 1000px 0 0 0 #f8f8f8;
+	-o-box-shadow: -1000px 0 0 0 #f8f8f8, 1000px 0 0 0 #f8f8f8;
+	box-shadow: -1000px 0 0 0 #f8f8f8, 1000px 0 0 0 #f8f8f8;
+}
+#sub-footer-widgets h3 {
+	text-transform: uppercase;
+}
+
+#sub-footer-core {
+	padding: 20px 10px;
+}
+#sub-footer-core,
+#sub-footer-core a:hover {
+	color: #fff;
+}
+#sub-footer-core a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#sub-footer-close-core {
+	top: -42px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#sub-footer-close-core:before {
+	color: #121212;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#sub-footer-close-core:hover {
+	background: #13aff0;
+	border: 1px solid #13aff0;
+}
+#sub-footer-close-core:hover:before {
+	color: #fff;
+}
+
+#post-footer-social li a {
+	color: #fff;
+	text-decoration: none;
+	width: 30px;
+	height: 30px;
+	border: none;
+	margin-left: 5px;
+}
+
+#post-footer-social li a:hover {
+	color: #13aff0;
+    background: #fff;
+}
+#post-footer-social li.facebook a:hover {
+	color: #3b5997;
+    background: #fff;
+}
+#post-footer-social li.twitter a:hover {
+	color: #a5dee8;
+    background: #fff;
+}
+#post-footer-social li.google-plus a:hover {
+	color: #db4a39;
+    background: #fff;
+}
+#post-footer-social li.instagram a:hover {
+	color: #AC8263;
+    background: #fff;
+}
+#post-footer-social li.tumblr a:hover {
+	color: #395672;
+    background: #fff;
+}
+#post-footer-social li.linkedin a:hover {
+	color: #56a1c4;
+    background: #fff;
+}
+#post-footer-social li.flickr a:hover {
+	color: #c5c5c5;
+    background: #fff;
+}
+#post-footer-social li.pinterest a:hover {
+	color: #C92228;
+    background: #fff;
+}
+#post-footer-social li.xing a:hover {
+	color: #126567;
+    background: #fff;
+}
+#post-footer-social li.paypal a:hover {
+	color: #1e477a;
+    background: #fff;
+}
+#post-footer-social li.youtube a:hover {
+	color: #de1f26;
+    background: #fff;
+}
+#post-footer-social li.vimeo-square a:hover {
+	color: #4EBBFF;
+    background: #fff;
+}
+#post-footer-social li.rss a:hover {
+	color: #fea81d;
+    background: #fff;
+}
+
+/* Sidebar Style */
+#sidebar h3.widget-title {
+	color: #222;
+	padding-bottom: 0;
+}
+#sidebar h3.widget-title:before {
+	display: none;
+}
+
+/* Widgets */
+
+/* Widgets - Tag Cloud */
+
+/* Misc */
+
