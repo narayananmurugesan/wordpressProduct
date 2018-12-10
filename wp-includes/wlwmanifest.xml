@@ -6,7 +6,7 @@
     <clientType>WordPress</clientType>
 	<supportsKeywords>Yes</supportsKeywords>
 	<supportsGetTags>Yes</supportsGetTags>
-  </options>
+  </options> 
 
   <weblog>
     <serviceName>WordPress</serviceName>
